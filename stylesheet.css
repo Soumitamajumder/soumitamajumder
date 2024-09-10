@@ -82,18 +82,13 @@ section{
 
 /*------------- Break Points --------------*/
 
-@media(max-width:991px){
-    header, 
-    header.sticky{
-     padding: 15px 5%;   
-    }
-    footer{
-        padding: 15px 5%;   
-       }
-    section{
-        padding: 15px 5%;   
-       }
+@media (max-width: 768px) {
+  /* Styles for mobile devices */
+  body {
+    font-size: 14px;
+  }
 }
+
 
 .home {
     position: relative;
